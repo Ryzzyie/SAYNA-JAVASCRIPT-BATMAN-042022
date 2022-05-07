@@ -2,7 +2,6 @@ header {
     background-image: url("../Illustrations/Home/Bathome1.png");
     background-size: cover;
     height: 127vh;
-    overflow: hidden;
 }
 
 .intro {
@@ -34,30 +33,30 @@ main .img-slider {
 }
 
 main .presentation-batman {
-    background: linear-gradient(darkgrey, #19587d);
-    /*background-color: #2f4353;
-    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);*/
-    /*background-color: #d2ccc4;*/
-    width: 40%;
-}
-
-main .d-flex-multimedia {
-    display: flex;
+    background-image: linear-gradient(to right bottom, #aaa397, #95988a, #818c81, #6d807a, #5d7374, #536d72, #4a6671, #445f6f, #3b5d72, #325c76, #275a79, #19587d);
 }
 
 .btn {
     padding: 18px 50px;
     font-family: 'Rajdhani';
     font-size: 20px;
+    color: var(--white-color);
 }
 
 footer .footer-part1 {
     background-color: var(--grey-color);
     height: 90vh;
+    padding: 0 20%;
 }
 
 footer .footer-part2 {
     height: 90vh;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.icone-footer {
+    padding: 15px;
 }
 
 footer .menu-footer li img {
